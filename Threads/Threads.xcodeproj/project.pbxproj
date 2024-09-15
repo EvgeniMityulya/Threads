@@ -24,6 +24,7 @@
 		7B5D6B422C96F4C2002095BE /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B412C96F4C2002095BE /* CircularProfileImageView.swift */; };
 		7B5D6B442C96F573002095BE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B432C96F573002095BE /* UserCell.swift */; };
 		7B5D6B472C96F8E3002095BE /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */; };
+		7B5D6B4B2C970146002095BE /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B4A2C970146002095BE /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		7B5D6B412C96F4C2002095BE /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		7B5D6B432C96F573002095BE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		7B5D6B4A2C970146002095BE /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 		7B5D6B3A2C96DEE5002095BE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7B5D6B482C970130002095BE /* EditProfile */,
 				7B5D6B452C96F8D7002095BE /* Model */,
 				7B5D6B3B2C96DEE9002095BE /* ProfileView */,
 			);
@@ -288,6 +291,22 @@
 				7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7B5D6B482C970130002095BE /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6B492C97013B002095BE /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		7B5D6B492C97013B002095BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6B4A2C970146002095BE /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +381,7 @@
 			files = (
 				7B5D6B2D2C96DE2D002095BE /* FeedView.swift in Sources */,
 				7B5D6B1B2C95BC5D002095BE /* LoginView.swift in Sources */,
+				7B5D6B4B2C970146002095BE /* EditProfileView.swift in Sources */,
 				7B5D6B062C95B33E002095BE /* ContentView.swift in Sources */,
 				7B5D6B3F2C96E103002095BE /* ThreadCell.swift in Sources */,
 				7B5D6B392C96DECB002095BE /* ActivityView.swift in Sources */,
