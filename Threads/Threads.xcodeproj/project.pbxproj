@@ -20,6 +20,7 @@
 		7B5D6B352C96DEA1002095BE /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B342C96DEA1002095BE /* CreateThreadView.swift */; };
 		7B5D6B392C96DECB002095BE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B382C96DECB002095BE /* ActivityView.swift */; };
 		7B5D6B3D2C96DF12002095BE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B3C2C96DF12002095BE /* ProfileView.swift */; };
+		7B5D6B3F2C96E103002095BE /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B3E2C96E103002095BE /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7B5D6B342C96DEA1002095BE /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		7B5D6B382C96DECB002095BE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		7B5D6B3C2C96DF12002095BE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7B5D6B3E2C96E103002095BE /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +123,11 @@
 		7B5D6B152C95BC07002095BE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D6B3A2C96DEE5002095BE /* Profile */,
 				7B5D6B362C96DEB8002095BE /* Activity */,
 				7B5D6B172C95BC2E002095BE /* Authentication */,
 				7B5D6B2E2C96DE62002095BE /* Explore */,
 				7B5D6B2A2C96DE1A002095BE /* Feed */,
+				7B5D6B3A2C96DEE5002095BE /* Profile */,
 				7B5D6B182C95BC40002095BE /* Root */,
 				7B5D6B272C96DB05002095BE /* TabBar */,
 				7B5D6B322C96DE84002095BE /* ThreadCreation */,
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5D6B2C2C96DE2D002095BE /* FeedView.swift */,
+				7B5D6B3E2C96E103002095BE /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				7B5D6B2D2C96DE2D002095BE /* FeedView.swift in Sources */,
 				7B5D6B1B2C95BC5D002095BE /* LoginView.swift in Sources */,
 				7B5D6B062C95B33E002095BE /* ContentView.swift in Sources */,
+				7B5D6B3F2C96E103002095BE /* ThreadCell.swift in Sources */,
 				7B5D6B392C96DECB002095BE /* ActivityView.swift in Sources */,
 				7B5D6B352C96DEA1002095BE /* CreateThreadView.swift in Sources */,
 				7B5D6B292C96DB56002095BE /* ThreadsTabView.swift in Sources */,
