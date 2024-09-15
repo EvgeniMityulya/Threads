@@ -23,6 +23,7 @@
 		7B5D6B3F2C96E103002095BE /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B3E2C96E103002095BE /* ThreadCell.swift */; };
 		7B5D6B422C96F4C2002095BE /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B412C96F4C2002095BE /* CircularProfileImageView.swift */; };
 		7B5D6B442C96F573002095BE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B432C96F573002095BE /* UserCell.swift */; };
+		7B5D6B472C96F8E3002095BE /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7B5D6B3E2C96E103002095BE /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		7B5D6B412C96F4C2002095BE /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		7B5D6B432C96F573002095BE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 		7B5D6B3A2C96DEE5002095BE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7B5D6B452C96F8D7002095BE /* Model */,
 				7B5D6B3B2C96DEE9002095BE /* ProfileView */,
 			);
 			path = Profile;
@@ -277,6 +280,14 @@
 				7B5D6B432C96F573002095BE /* UserCell.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		7B5D6B452C96F8D7002095BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 				7B5D6B422C96F4C2002095BE /* CircularProfileImageView.swift in Sources */,
 				7B5D6B442C96F573002095BE /* UserCell.swift in Sources */,
 				7B5D6B352C96DEA1002095BE /* CreateThreadView.swift in Sources */,
+				7B5D6B472C96F8E3002095BE /* ProfileThreadFilter.swift in Sources */,
 				7B5D6B292C96DB56002095BE /* ThreadsTabView.swift in Sources */,
 				7B5D6B262C96D840002095BE /* ThreadsTextFieldModifier.swift in Sources */,
 				7B5D6B042C95B33E002095BE /* ThreadsApp.swift in Sources */,
