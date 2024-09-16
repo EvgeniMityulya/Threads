@@ -29,6 +29,8 @@
 		7B5D6B502C985342002095BE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7B5D6B4F2C985342002095BE /* FirebaseAuth */; };
 		7B5D6B522C985342002095BE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7B5D6B512C985342002095BE /* FirebaseFirestore */; };
 		7B5D6B542C985342002095BE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7B5D6B532C985342002095BE /* FirebaseStorage */; };
+		7B5D6B582C98D5C3002095BE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B572C98D5C3002095BE /* RegistrationViewModel.swift */; };
+		7B5D6B5A2C98D6A0002095BE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6B592C98D6A0002095BE /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		7B5D6B462C96F8E3002095BE /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		7B5D6B4A2C970146002095BE /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		7B5D6B4C2C98527B002095BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B5D6B572C98D5C3002095BE /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		7B5D6B592C98D6A0002095BE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +144,9 @@
 		7B5D6B152C95BC07002095BE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D6B402C96F4B1002095BE /* Components */,
 				7B5D6B362C96DEB8002095BE /* Activity */,
 				7B5D6B172C95BC2E002095BE /* Authentication */,
+				7B5D6B402C96F4B1002095BE /* Components */,
 				7B5D6B2E2C96DE62002095BE /* Explore */,
 				7B5D6B2A2C96DE1A002095BE /* Feed */,
 				7B5D6B3A2C96DEE5002095BE /* Profile */,
@@ -164,7 +168,9 @@
 		7B5D6B172C95BC2E002095BE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				7B5D6B552C98D5A7002095BE /* Service */,
 				7B5D6B192C95BC4F002095BE /* Views */,
+				7B5D6B562C98D5AF002095BE /* ViewModel */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -318,6 +324,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7B5D6B552C98D5A7002095BE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6B592C98D6A0002095BE /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7B5D6B562C98D5AF002095BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6B572C98D5C3002095BE /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -398,7 +420,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5D6B2D2C96DE2D002095BE /* FeedView.swift in Sources */,
+				7B5D6B582C98D5C3002095BE /* RegistrationViewModel.swift in Sources */,
 				7B5D6B1B2C95BC5D002095BE /* LoginView.swift in Sources */,
+				7B5D6B5A2C98D6A0002095BE /* AuthService.swift in Sources */,
 				7B5D6B4B2C970146002095BE /* EditProfileView.swift in Sources */,
 				7B5D6B062C95B33E002095BE /* ContentView.swift in Sources */,
 				7B5D6B3F2C96E103002095BE /* ThreadCell.swift in Sources */,
@@ -549,6 +573,7 @@
 				DEVELOPMENT_TEAM = SDD6GS4SZP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Threads;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -578,6 +603,7 @@
 				DEVELOPMENT_TEAM = SDD6GS4SZP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Threads;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

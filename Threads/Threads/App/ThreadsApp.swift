@@ -22,7 +22,7 @@ struct ThreadsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ThreadsTabView()
+            LoginView()
         }
     }
 }
