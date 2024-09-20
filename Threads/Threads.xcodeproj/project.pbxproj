@@ -289,10 +289,10 @@
 		7B5D6B3A2C96DEE5002095BE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D6BB62C9E17A6002095BE /* ViewModel */,
 				7B5D6B482C970130002095BE /* EditProfile */,
 				7B5D6B452C96F8D7002095BE /* Model */,
 				7B5D6B3B2C96DEE9002095BE /* ProfileView */,
+				7B5D6BB62C9E17A6002095BE /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
