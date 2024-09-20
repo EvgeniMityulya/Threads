@@ -1,14 +1,14 @@
 //
-//  ProfileViewModel.swift
+//  CurrentUserProfileViewModel.swift
 //  Threads
 //
-//  Created by Евгений Митюля on 9/20/24.
+//  Created by Евгений Митюля on 9/21/24.
 //
 
 import Foundation
 import Combine
 
-class ProfileViewModel: ObservableObject {
+class CurrentUserProfileViewModel: ObservableObject {
     @Published var currentUser: User?
     private var cancellables = Set<AnyCancellable>()
     
