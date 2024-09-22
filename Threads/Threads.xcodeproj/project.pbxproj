@@ -44,6 +44,9 @@
 		7B5D6BCE2CA013F6002095BE /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6BCD2CA013F6002095BE /* EditProfileViewModel.swift */; };
 		7B5D6BD02CA0155E002095BE /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6BCF2CA0155E002095BE /* ImageUploader.swift */; };
 		7B5D6BD32CA0252B002095BE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7B5D6BD22CA0252B002095BE /* Kingfisher */; };
+		7B5D6BD52CA0A051002095BE /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6BD42CA0A051002095BE /* Thread.swift */; };
+		7B5D6BD82CA0A1B1002095BE /* CreateThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6BD72CA0A1B1002095BE /* CreateThreadViewModel.swift */; };
+		7B5D6BDA2CA0A1C8002095BE /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6BD92CA0A1C8002095BE /* ThreadService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +84,9 @@
 		7B5D6BCA2C9E2730002095BE /* UserContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListView.swift; sourceTree = "<group>"; };
 		7B5D6BCD2CA013F6002095BE /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		7B5D6BCF2CA0155E002095BE /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		7B5D6BD42CA0A051002095BE /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		7B5D6BD72CA0A1B1002095BE /* CreateThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadViewModel.swift; sourceTree = "<group>"; };
+		7B5D6BD92CA0A1C8002095BE /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 			children = (
 				7B5D6BB42C9E16BA002095BE /* UserService.swift */,
 				7B5D6BCF2CA0155E002095BE /* ImageUploader.swift */,
+				7B5D6BD92CA0A1C8002095BE /* ThreadService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -159,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5D6BB22C9E125E002095BE /* User.swift */,
+				7B5D6BD42CA0A051002095BE /* Thread.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5D6B332C96DE93002095BE /* View */,
+				7B5D6BD62CA0A19B002095BE /* ViewModel */,
 			);
 			path = ThreadCreation;
 			sourceTree = "<group>";
@@ -442,6 +451,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		7B5D6BD62CA0A19B002095BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D6BD72CA0A1B1002095BE /* CreateThreadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -524,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5D6B2D2C96DE2D002095BE /* FeedView.swift in Sources */,
+				7B5D6BD52CA0A051002095BE /* Thread.swift in Sources */,
 				7B5D6B582C98D5C3002095BE /* RegistrationViewModel.swift in Sources */,
 				7B5D6B1B2C95BC5D002095BE /* LoginView.swift in Sources */,
 				7B5D6B5A2C98D6A0002095BE /* AuthService.swift in Sources */,
@@ -536,6 +554,7 @@
 				7B5D6B392C96DECB002095BE /* ActivityView.swift in Sources */,
 				7B5D6B602C98E0D0002095BE /* LoginViewModel.swift in Sources */,
 				7B5D6B422C96F4C2002095BE /* CircularProfileImageView.swift in Sources */,
+				7B5D6BD82CA0A1B1002095BE /* CreateThreadViewModel.swift in Sources */,
 				7B5D6B442C96F573002095BE /* UserCell.swift in Sources */,
 				7B5D6BBB2C9E1C4C002095BE /* ExploreViewModel.swift in Sources */,
 				7B5D6B352C96DEA1002095BE /* CreateThreadView.swift in Sources */,
@@ -553,6 +572,7 @@
 				7B5D6B3D2C96DF12002095BE /* ProfileView.swift in Sources */,
 				7B5D6B1F2C95C106002095BE /* RegistrationView.swift in Sources */,
 				7B5D6BB32C9E125E002095BE /* User.swift in Sources */,
+				7B5D6BDA2CA0A1C8002095BE /* ThreadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
