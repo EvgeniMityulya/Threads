@@ -10,8 +10,6 @@ import SwiftUI
 struct ProfileView: View {
     let user: User
     
-    
-    
     var body: some View {
         ScrollView {
             // Bio and stats
@@ -31,7 +29,7 @@ struct ProfileView: View {
                 }
                 
                 // user content list view
-                UserContentListView()
+                UserContentListView(user: user)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
