@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Threads</h1>
+  <h1 align="center">Threads</h1>
 
   <h2>Screenshots (iPhone 15 Pro)</h2>
 
