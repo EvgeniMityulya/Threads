@@ -6,8 +6,8 @@
 
 ### Authentication
 <p align="center">
-  <img src="[Login](https://github.com/user-attachments/assets/5e749ca6-ba6b-4801-863d-8ba6b298ed81)" width="300">
-  <img src="[Register](https://github.com/user-attachments/assets/011d4272-5af7-4e26-bf3c-64d8b2f0acf4))" width="300">
+  <img src="https://github.com/user-attachments/assets/5e749ca6-ba6b-4801-863d-8ba6b298ed81" width="300">
+  <img src="https://github.com/user-attachments/assets/011d4272-5af7-4e26-bf3c-64d8b2f0acf4" width="300">
 </p>
 
 </p>  
