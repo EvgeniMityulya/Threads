@@ -15,6 +15,11 @@
     <img src="https://github.com/user-attachments/assets/3f8f35f1-fea7-4662-b674-a15d9f455403" width="300">
   </p>
 
+  <h3 align="center">Create thread</h3>
+  <p align="center">  
+    <img src="https://github.com/user-attachments/assets/b0a0039e-9516-4733-8e39-fba39e8217ed" width="300">
+  </p>
+
   <h3 align="center">Search</h3>
   <p align="center">  
     <img src="https://github.com/user-attachments/assets/f68ed9ca-fdff-4301-8014-973adc2859ad" width="300">
