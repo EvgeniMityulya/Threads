@@ -5,6 +5,9 @@
 ## User settings
 xcuserdata/
 
+## Info plist
+GoogleService-Info.plist
+
 ## Obj-C/Swift specific
 *.hmap
 
