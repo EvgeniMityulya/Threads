@@ -1,5 +1,4 @@
-<div style="text-align:center;">
-
+<center>
   <h1>Threads</h1>
 
   <h2>Screenshots (iPhone 15 Pro)</h2>
@@ -26,5 +25,4 @@
   <p>  
     <img src="https://github.com/user-attachments/assets/47bc6688-6912-46d0-8ed8-73f110324fa6" width="300">
   </p>
-
-</div>
+</center>
